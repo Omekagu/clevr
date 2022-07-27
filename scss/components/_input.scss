@@ -5,4 +5,8 @@
   cursor: pointer;
   height: 3rem;
   padding-left: 2rem;
+  outline: none;
+}
+.input:focus {
+  outline: none;
 }

@@ -8,33 +8,74 @@
 
   &__left {
     width: 20rem;
-    line-height: 1.7rem;
+    transform: translateY(rem);
   }
   &__center {
     width: 25rem;
-    line-height: 3rem;
-    transform: translateX(5rem) translateY(3rem);
+    transform: translateX(5rem) translateY(1rem);
   }
   &__right {
-    transform: translateX(-3rem) translateY(3rem);
-    width: 20rem;
-    line-height: 3rem;
+    transform: translateX(-3rem) translateY(2rem);
+    width: 15rem;
   }
   &__subscribe {
-    transform: translateY(-1rem);
-    width: 20rem;
+    transform: translateY(-3rem);
+    width: 28rem;
+  }
+  &__paragraph {
     line-height: 1.7rem;
+    margin-bottom: 3rem;
   }
   &__head {
+    text-transform: capitalize;
+    line-height: 3rem;
+  }
+  &__icon {
+    @include flex;
+    width: 4rem;
+    height: 3rem;
+  }
+  &__i {
+    padding: 0.7rem 0.7rem;
+    margin-right: 1rem;
+    border-radius: 50px;
+    background-color: $color-secondary-light;
   }
   &__list {
     text-decoration: none;
   }
   &__item {
+    line-height: 3rem;
     list-style: none;
   }
   a {
     color: $color-primary-dark;
     text-decoration: none;
+  }
+  &__subscribe {
+    &--paragraph {
+      line-height: 1.7rem;
+      margin-bottom: 3rem;
+    }
+    &--btn {
+      padding: 1rem 2rem;
+      bottom: 326px;
+      box-shadow: 0px 7px 20px $color-primary-dark;
+      border: none;
+      color: $color-primary-white;
+      border-radius: 8px;
+    }
+  }
+  &__buttom {
+    padding: 1rem 5rem;
+    border-top: 1px solid #ebebeb;
+    @include flex;
+  }
+  &__rights {
+    transform: translateX(-25rem);
+    color: $color-primary-dark;
+  }
+  &__author {
+    color: $color-primary-dark;
   }
 }
