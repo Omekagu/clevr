@@ -1,0 +1,26 @@
+.feature {
+  background-color: #fcf8fd;
+  padding: 5rem 5rem;
+  @include flex;
+
+  &__container {
+    margin-right: 2rem;
+  }
+  &__icon {
+    width: 3rem;
+    transform: translateY(-1rem);
+  }
+  &__heading {
+    text-transform: capitalize;
+    transform: translateY(1.2rem);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    color: $color-secondary-dark;
+  }
+  &__paragraph {
+    transform: translateY(2rem);
+  }
+}

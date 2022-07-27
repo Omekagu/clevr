@@ -137,6 +137,12 @@
   background-color: #8d28ad;
 }
 
+.section__one {
+  overflow: hidden;
+}
+.section__one > * {
+  line-height: 2rem;
+}
 .section__one--trending {
   font-family: "Poppins";
   font-style: normal;
@@ -153,9 +159,112 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
   text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+.section__one--container {
+  padding: 5rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section__one--box {
+  align-items: center;
+  margin-right: 2rem;
+}
+.section__one--rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  gap: 0.2rem;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 31px;
+  padding: 0.1rem 0.6rem;
+  transform: translateY(-24rem) translateX(1rem);
+  z-index: 20;
+}
+.section__one--star {
+  background-color: #ff7a00;
+  border-radius: 2rem;
+  padding: 0.3rem;
+  margin-right: -0.7rem;
+  transform: translateX(-0.7rem);
+}
+.section__one--placeholder {
+  position: relative;
+}
+.section__one--1 {
+  color: #d9176c;
+  text-align: center;
+}
+.section__one--2 {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
   color: #000000;
+}
+.section__one--3 {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+.section__one--price {
+  display: inline-block;
+  transform: translateX(7rem);
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #8d28ad;
+  padding: 0 1rem;
+  border: 1px solid #f0e4f4;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.section__one--price span {
+  text-decoration: line-through;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+.section__one--price:active {
+  background-color: #d9176c;
+}
+
+.feature {
+  background-color: #fcf8fd;
+  padding: 5rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.feature__container {
+  margin-right: 2rem;
+}
+.feature__icon {
+  width: 3rem;
+  transform: translateY(-1rem);
+}
+.feature__heading {
+  text-transform: capitalize;
+  transform: translateY(1.2rem);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 24px;
+  color: #000000;
+}
+.feature__paragraph {
+  transform: translateY(2rem);
 }
 
 *,
