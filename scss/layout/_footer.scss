@@ -1,0 +1,40 @@
+.footer {
+  padding: 5rem 5rem;
+
+  &__container {
+    @include flex;
+    margin-right: 2rem;
+  }
+
+  &__left {
+    width: 20rem;
+    line-height: 1.7rem;
+  }
+  &__center {
+    width: 25rem;
+    line-height: 3rem;
+    transform: translateX(5rem) translateY(3rem);
+  }
+  &__right {
+    transform: translateX(-3rem) translateY(3rem);
+    width: 20rem;
+    line-height: 3rem;
+  }
+  &__subscribe {
+    transform: translateY(-1rem);
+    width: 20rem;
+    line-height: 1.7rem;
+  }
+  &__head {
+  }
+  &__list {
+    text-decoration: none;
+  }
+  &__item {
+    list-style: none;
+  }
+  a {
+    color: $color-primary-dark;
+    text-decoration: none;
+  }
+}

@@ -2,12 +2,14 @@
 @import './abstract/typography';
 @import './abstract/variables';
 
-@import './components/navbar';
-@import './components/header';
-@import './components/footer';
 @import './components/button';
+@import './components/input';
+
+@import './layout/footer';
+@import './layout/navbar';
 
 @import './pages/section';
 @import './pages/features';
+@import './pages/header';
 
 @import './base/base';
