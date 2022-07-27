@@ -1,0 +1,62 @@
+.navbar {
+  @include flex;
+  background: #ffffff;
+  padding: 1rem 2rem;
+  box-shadow: 0px 29px 39px rgba(0, 0, 0, 0.01);
+
+  &__logo {
+    margin-right: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    &-text {
+      width: 4rem;
+      height: 1.5rem;
+    }
+  }
+
+  &__menu {
+    color: #8d28ad;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  &__input {
+    background: #f3f3f3;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    height: 3rem;
+    width: 30rem;
+    transform: translateX(2rem);
+    padding-left: 2rem;
+  }
+
+  &__search {
+    transform: translateX(-4rem);
+    width: 1rem;
+  }
+  &__basket {
+    width: 1rem;
+  }
+  &__sigin {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: $color-primary-grey;
+  }
+  &__ca {
+    width: 7rem;
+    height: 3rem;
+    left: calc(50% - 183px / 2 + 718.5px);
+    top: 40px;
+    color: #ffffff;
+    border: none;
+    background: #8d28ad;
+    border-radius: 8px;
+  }
+}
