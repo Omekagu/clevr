@@ -24,13 +24,22 @@
   }
 
   &__input {
-    width: 30rem;
+    width: 763px;
+    height: 68px;
+    left: calc(50% - 763px / 2 - 20.5px);
+    top: 40px;
+    margin-right: -2rem;
+    background: #f3f3f3;
+    border-radius: 8px;
     transform: translateX(2rem);
   }
 
   &__search {
+    width: 23.99px;
+    height: 24px;
+    left: calc(50% - 23.99px / 2 + 319px);
+    top: 62px;
     transform: translateX(-4rem);
-    width: 1rem;
   }
   &__basket {
     width: 1rem;

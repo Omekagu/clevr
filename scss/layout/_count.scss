@@ -1,0 +1,48 @@
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 317px;
+  left: calc(50% - 1920px / 2);
+  bottom: 1026px;
+
+  background: #380b46;
+  &__shop {
+  }
+  &__icon {
+    width: 44px;
+    height: 41px;
+    left: calc(50% - 56px / 2 - 539px);
+    bottom: 1186px;
+  }
+  &__text {
+    transform: translate(4.4rem, -3.4rem);
+    // width: 93px;
+    height: 75px;
+    left: calc(50% - 93px / 2 - 430.5px);
+    bottom: 1172px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 75px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+  &__paragraph {
+    text-align: left;
+    transform: translate(1rem, -5rem);
+    width: 267px;
+    height: 30px;
+    left: calc(50% - 139.5px - 457.5px);
+    bottom: 1127px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}

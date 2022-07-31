@@ -1,0 +1,116 @@
+.testimonial {
+  padding: 2rem 0 16rem 3rem;
+  overflow: hidden;
+  //   @include flex;
+  &__container {
+    @include flex;
+    transform: translateX(5rem);
+  }
+  .boxmd {
+    transform: translateY(1.2rem);
+    height: 308px;
+  }
+  .boxmd--details {
+    transform: translateY(1.4rem);
+    // height: 308px;
+  }
+  &__box {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    line-height: 3rem;
+    width: 379px;
+    height: 269px;
+    left: calc(50% - 214px - 596px);
+    top: 7289px;
+    background: #ffffff;
+    box-shadow: 0px 7px 20px rgb(141 40 173 / 15%);
+    border-radius: 10px;
+  }
+  &__star {
+    width: 196px;
+    height: 25px;
+    left: 180px;
+    top: 7319px;
+    margin-bottom: 2.5rem;
+
+    .star {
+      width: 28px;
+      height: 25px;
+      left: calc(50% - 28px / 2 - 598px);
+      top: 7319px;
+    }
+  }
+  &__paragraph {
+    margin-bottom: 2rem;
+    width: 311px;
+    height: 70px;
+    left: calc(50% - 380px / 2 - 590px);
+    top: 7374px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000000;
+  }
+  &__details {
+    // margin-top: 2rem;
+    display: flex;
+  }
+  &__author {
+  }
+  &__name {
+    width: 225px;
+    height: 27px;
+    left: calc(50% - 110px / 2 - 725px);
+    top: 7474px;
+    text-transform: capitalize;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    color: #3d3d3d;
+  }
+  &__title {
+    text-transform: capitalize;
+    // width: 82px;
+    height: 21px;
+    left: calc(50% - 82px / 2 - 739px);
+    top: 7505px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #3d3d3d;
+  }
+  &__photo {
+    margin: auto;
+  }
+
+  &__icon {
+    padding: 0.8rem;
+    left: calc(50% - 57px / 2 + 838.5px);
+    top: 7638px;
+    border-radius: 50px;
+    box-shadow: 0px 14px 26px rgba(39, 13, 48, 0.25);
+  }
+  &__arrow {
+    transform: translate(-4.5rem, 4rem);
+    text-align: end;
+    .icon__left {
+      background-color: #ffffff;
+    }
+    .icon__right {
+      background: #8d28ad;
+    }
+  }
+}
